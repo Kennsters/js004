@@ -8,10 +8,20 @@
 <body>
     
 
-    <button>Click Me</button>
+    <button id="myBtn">Click Me</button>
+    <input type="text">
+
+    
 
     <script>
-        
+
+        function myFunction () {
+            console.log('hi')
+        }
+
+        document.getElementById('myBtn').addEventListener('click', myFunction)
+
+
     </script>
     
 </body>
